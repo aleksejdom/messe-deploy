@@ -10,7 +10,7 @@ import state from '../state'
 
 const Model = props => {
 
-    const model = useLoader(GLTFLoader, '/model/3dmesse.gltf', loader => {
+    const model = useLoader(GLTFLoader, 'https://aleksejdom.github.io/threejs-messe-deploy/model/3dmesse.gltf', loader => {
         const dracoLoader = new DRACOLoader();
         dracoLoader.setDecoderPath('/model/');
         loader.setDRACOLoader(dracoLoader);
