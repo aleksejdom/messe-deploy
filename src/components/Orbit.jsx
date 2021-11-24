@@ -11,9 +11,10 @@ const Orbit = () => {
         <orbitControls 
             /* attach sorgt für die Zugänglichkeit des Elements von der Scene aus */
             
-            autoRotate enableZoom={true}
-            maxDistance={4.2}
-            minDistance={2.7} 
+            autoRotate={false}
+            enableZoom={true}
+            maxDistance={5.5}
+            minDistance={2} 
             enablePan={false} 
             minPolarAngle={Math.PI / 6.8} 
             maxPolarAngle={Math.PI / 2}

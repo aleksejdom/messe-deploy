@@ -7,7 +7,7 @@ const Floor = props => {
         <boxBufferGeometry args={[100,0.3,100]}/>
         <meshPhongMaterial 
           transparent
-          opacity={1}
+          opacity={0}
         />
       </mesh>
     )
