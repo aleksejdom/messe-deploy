@@ -2,6 +2,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "homepage":"https://aleksejdom.github.io/three-messestand/",
+    "name": "three-messestand",
     "@react-three/cannon": "^4.0.1",
     "@react-three/drei": "^7.17.2",
     "@testing-library/jest-dom": "^5.11.6",
