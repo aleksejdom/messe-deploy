@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.icon-web{
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+}
+.icon-web img{
+  width: 35px;
+}
+.info_start{
+  display: block;
+  position: absolute;
+  bottom: 4rem;
+  left: 4rem;
+  z-index: 2;
+  color: #3c3c3c;
+}
+.intro{
+  display: block;
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  z-index: 2;
+  color: white;
+}
+.intro a{
+  text-decoration: underline;
+  color:white;
+}
+.info_start h1{
+  font-size: 0.9rem;
+  width: 280px;
+  font-weight: normal;
+}
+
+#healthLabel{
+  position:absolute;
+  left: 2rem;
+  top: 2rem;
+  color: white;
+  z-index: 1;
+}
+
+.cta_block {
+  display: block;
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  color: white;
+}
+.cta_block p{
+  max-width: 453px;
+}
+.cta_block a{
+  text-decoration: none;
+  color:gold;
+}
+
+@media only screen and (max-width: 768px) {
+  .cta_block p{
+    max-width: 370px;
+  }
+  .intro{
+    left:2rem;
+    top:1rem;
+  }
+  .info_start{
+    bottom: 2rem;
+    left: 2rem;
+  }
+  .intro h1{
+    font-size: 1.4rem;
+  }
+  .intro p{
+    font-size: 1rem;
+  }
+  .icon-web {
+    right: 2rem;
+    top: 2rem;
+  }
+  .icon-web img{
+    width: 25px;
+  }
+}
+
+.cta_block div{
+  display: none;
+}
+.cta_block .cta_active {
+  display: block;
+}
